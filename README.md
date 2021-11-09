@@ -55,7 +55,7 @@
 
   ## ScreenShot
 
-  ![Screenshot](assets/workout-gif.jpg)
+  ![Screenshot](assets/workout-tracker.gif)
 
   ## Links
 
