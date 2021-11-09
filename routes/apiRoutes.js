@@ -1,6 +1,5 @@
 const db = require('../models/workout.js');
 const router = require('express').Router();
-const mongoose = require('mongoose');
 
 
 // getLastWorkout GET
@@ -24,10 +23,12 @@ router.put('/api/workouts/:id', (req, res) => {
     console.log("PUT route", req.params);
     db.findByIdAndUpdate(
         req.params.id,
-        {$push: {exercises: req.body}},
+        { $push: { exercises: req.body } },
         { new: true, runValidators: true }
     )
-    .then((data) => res.json(data))
+    .then((data) => {
+        console.log(data);
+    })
     .catch((err) => {
         res.json(err);
     })
