@@ -31,13 +31,13 @@
 
   To create this application you need to install:
   
-  Node
-  Express  
-  MongoDB  
-  Mongoose  
-  Morgan  
-  Heroku  
-  Mongodb Atlas
+  * Node
+  * Express  
+  * MongoDB  
+  * Mongoose  
+  * Morgan  
+  * Heroku  
+  * Mongodb Atlas
   
 
   ## Usage
