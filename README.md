@@ -29,9 +29,15 @@
   
   ## Installation
 
-  To run this application properly, you need to install:
+  To create this application you need to install:
   
-  Node  Express  MongoDB  Mongoose  Morgan  Heroku  MongoDB Atlas
+  Node
+  Express  
+  MongoDB  
+  Mongoose  
+  Morgan  
+  Heroku  
+  Mongodb Atlas
   
 
   ## Usage
