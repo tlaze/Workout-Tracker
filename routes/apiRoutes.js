@@ -1,13 +1,13 @@
 const db = require('../models/workout.js');
 const router = require('express').Router();
-require('mongoose');
+const mongoose = require('mongoose');
 
 
 // getLastWorkout GET
 router.get('/api/workouts', (req, res) => {
     db.aggregate([{
         $addFields: {
-            totalDuration: { $sum: '$exercise.duration' }
+            totalDuration: { $sum: '$exercises.duration' }
         },
     }])
     .then((data) => {
@@ -22,9 +22,11 @@ router.get('/api/workouts', (req, res) => {
 // addExercise PUT
 router.put('/api/workouts/:id', (req, res) => {
     console.log("PUT route", req.params);
-    db.findByIdAndUpdate(req.params.id,
-        {$push: {exercise: req.body}},
-        { new: true, runValidators: true })
+    db.findByIdAndUpdate(
+        req.params.id,
+        {$push: {exercises: req.body}},
+        { new: true, runValidators: true }
+    )
     .then((data) => res.json(data))
     .catch((err) => {
         res.json(err);
@@ -45,12 +47,7 @@ router.post('/api/workouts', (req, res) => {
 
 // getWorkoutsInRange GET
 router.get('/api/workouts/range', (req, res) => {
-    db.aggregate([{
-        $addFields: {
-            totalDuration: { $sum: '$exercise.duration' },
-            totalWeight: { $sum: '$exercise.weight' }
-        }
-    }])
+    db.find({})
     .limit(7)
     .then((data) => {
         console.log('RangeRoute', data);
