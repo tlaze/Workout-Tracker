@@ -15,11 +15,11 @@
 
   * [License](#license)
 
-  * [Contributors](#contributors)
-
   * [ScreenShots](#screenshots)
 
   * [Links](#links)
+
+  * [Contributors](#contributors)
 
   * [Questions](#questions)
 
@@ -43,9 +43,6 @@
   
   This Project is licensed by [MIT](https://choosealicense.com/licenses/mit/).
   
-  ## Contributors
-
-  Tom Lazore - Contact Info Below
 
   ## ScreenShot
 
@@ -54,8 +51,13 @@
   ## Links
 
   [Live Application](https://young-reef-24740.herokuapp.com/stats)
-
+  
   [Project Repository](https://github.com/tlaze/Workout-Tracker)
+  
+  
+  ## Contributors
+
+  Tom Lazore - Contact Info Below
   
   
   ## Questions
