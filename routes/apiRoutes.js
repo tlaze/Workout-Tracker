@@ -1,4 +1,4 @@
-const Workout = require('../models/workout.js');
+const Workout = require('../models');
 const router = require('express').Router();
 
 
