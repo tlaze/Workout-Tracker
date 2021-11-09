@@ -59,9 +59,9 @@
 
   ## Links
 
-  [Live Application]()
+  [Live Application](https://young-reef-24740.herokuapp.com/stats)
 
-  [Project Repository]()
+  [Project Repository](https://github.com/tlaze/Workout-Tracker)
   
   
   ## Questions
