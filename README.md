@@ -17,8 +17,6 @@
 
   * [Contributors](#contributors)
 
-  * [Tests](#tests)
-
   * [ScreenShots](#screenshots)
 
   * [Links](#links)
@@ -48,10 +46,6 @@
   ## Contributors
 
   Tom Lazore - Contact Info Below
-  
-  ## Tests
-  
-  No tests at this time
 
   ## ScreenShot
 
