@@ -42,7 +42,10 @@
 
   ## Usage
   
-  Clone Repository  Run npm i  Run npm start
+  * Clone Repository  
+  * Run npm i  
+  * Run npm start
+  * Or to use the live application, click the link below
   
   
   ## License
